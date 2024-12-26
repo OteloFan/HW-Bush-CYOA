@@ -240,7 +240,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4367,
         "fields": {
             "question": 698,
-            "description": "The Cold War has ended, Germany stands united, has torn its wall, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make clear: under my administration, America has faced its greatest adversary—and prevailed.\""
+            "description": "The Cold War has ended, Germany stands united, has torn down its wall, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make clear: under my administration, America has faced its greatest adversary—and prevailed.\""
         }
     },
     {
@@ -248,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4368,
         "fields": {
             "question": 698,
-            "description": "I have often spoken of a kinder, gentler nation. We need to work on bringing people together set aside old grudges and look toward new possibilities.—Republicans, Democrats, and Independents—as we did with the Americans with Disabilities Act, progress is not a partisan issue—it is an American issue. To set aside old grudges and look toward new possibilities."
+            "description": "I have often spoken of a kinder, gentler nation. We need to work on bringing people together, set aside old grudges, and look toward new possibilities—Republicans, Democrats, and Independents—as we did with the Americans with Disabilities Act, progress is not a partisan issue—it is an American issue."
         }
     },
     {
