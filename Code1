@@ -176,7 +176,7 @@ e = campaignTrail_temp;
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.imgur.com/cMqmk8S.png')";
+  infoContainer.style.backgroundImage = "url('https://i.ibb.co/M73CBjW/overlay.png')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -205,19 +205,19 @@ e = campaignTrail_temp;
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.imgur.com/nls8Dx3.png";
+  prevButton.src = "https://i.ibb.co/gMyNq5T/back.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.imgur.com/ljVie87.png"; // Set the default play image
+  playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.imgur.com/vekiRy9.png";
+  nextButton.src = "https://i.ibb.co/5Rx0cYt/forward.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -227,10 +227,10 @@ e = campaignTrail_temp;
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.imgur.com/ZmrgDNU.png"; // Set the pause image
+      playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.imgur.com/RVbpiVf.png"; // Set the play image
+      playPauseButton.src = "https://i.ibb.co/G5TsX12/play.png"; // Set the play image
     }
   });
   
@@ -268,7 +268,7 @@ e = campaignTrail_temp;
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/ve8nXS8.png";
+  volumeLabel.src = "https://i.ibb.co/9Gkg5Qp/volume.png";
   volumeLabel.alt = "Volume";
   volumeContainer.appendChild(volumeLabel);
   
@@ -425,4 +425,3 @@ e = campaignTrail_temp;
   const gameWindow_player = document.getElementById("game_window");
   //use this function directly or put it in an event listener to start the music on the press of a certain button
   setupMusicPlayer();
-
