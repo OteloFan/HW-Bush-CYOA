@@ -151,10 +151,10 @@ e = campaignTrail_temp;
     );
   
     const song6 = new Song(
-      "Under The Bridge.",
+      "Under The Bridge",
       "Red Hot Chili Peppers",
       "https://images.genius.com/2680faf3d8fe8caf0458e56c6160900d.598x600x1.jpg",
-      "https://audio.jukehost.co.uk/TDnRpwxp5oGXmhaO0HXt6Xti2Wr3JQ2t"
+      "https://audio.jukehost.co.uk/Tfk5hk9hkHHG0h3uZfc8S5wE1lba7OKm"
     );
   
     playlist.addSong(song1);
