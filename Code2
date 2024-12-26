@@ -248,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4368,
         "fields": {
             "question": 698,
-            "description": "I have often spoken of a kinder, gentler nation. We need to look toward new possibilities, get to working on bringing people together —Republicans, Democrats, and Independents— and set aside old grudges, as we did with the Americans with Disabilities Act, progress is not a partisan issue—it is an American issue."
+            "description": "I have often spoken of a kinder, gentler nation. We need to look toward new possibilities, get to work on bringing people together —Republicans, Democrats, and Independents— and set aside old grudges, as we did with the Americans with "Disabilities Act. Progress is not a partisan issue, it is an American issue."
         }
     },
     {
