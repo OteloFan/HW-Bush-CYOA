@@ -116,52 +116,45 @@ e = campaignTrail_temp;
   
   
     const song1 = new Song(
-      "Counting Bodies Like Sheep",
-      "A Perfect Circle",
-      "https://upload.wikimedia.org/wikipedia/en/1/11/A_perfect_circle_counting_bodies.jpg",
-      "https://audio.jukehost.co.uk/H03r89sKddgV0CLNDHNdqu6IBpBGCRTr"
+      "Terrible Lie",
+      "Nine Inch Nails",
+      "https://i.scdn.co/image/ab67616d0000b2739764c0993e45db213f0e359f",
+      "https://audio.jukehost.co.uk/vRgnwRkJeUcZdNExhnh9YYVd51aeBwPo"
     );
     
     const song2 = new Song(
-      "American Idiot",
-      "Green Day",
-      "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Green_Day_-_American_Idiot_album_cover.png/220px-Green_Day_-_American_Idiot_album_cover.png",
-      "https://audio.jukehost.co.uk/37xW79v6txBYeEgXI3jzCRHS5yGnHJFl"
+      "What's Up",
+      "4 Non Blondes",
+      "https://upload.wikimedia.org/wikipedia/pt/9/9f/4_Non_Blondes_-_Whats_up.jpg",
+      "https://audio.jukehost.co.uk/wRvXliFPTKO2YE08Dr0JHqNFnS6JMnqh"
     );
   
     const song3 = new Song(
-      "America's Army™",
-      "Propagandhi",
-      "https://www.aversionline.com/assets/images/cache/propagandhi-potemkin-city-limits-cover_-_28de80_-_e82f5d0e6510d9fbbcd89617445200bc31aaf6c6.jpg",
-      "https://audio.jukehost.co.uk/WppjtiBwaIWyswZYGF5pbMNbF7f9mv7H"
+      "Games Without Frontiers",
+      "Peter Gabriel",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgVr4QtQus4KP2KKfQvdRm6XFlS7crt-FF23xcC4c8iXn4BLI7HgO_VIIT0PuKowysAwA&usqp=CAU",
+      "https://audio.jukehost.co.uk/Xi2kyxOxUPkXMSu683ni3aByO1rXzr7y"
     );
   
     const song4 = new Song(
-      "Prayer of the Refugee",
-      "Rise Against",
-      "https://upload.wikimedia.org/wikipedia/en/7/73/Rise_Against_-_The_Sufferer_%26_The_Witness.jpg",
-      "https://audio.jukehost.co.uk/wZbLTTDel7YTrEqIcfPeQFHCGcsr1WrP"
+      "Hard Times",
+      "Fresh Bush & The Invisible Man",
+      "https://i1.sndcdn.com/artworks-000089435516-x6lg01-t500x500.jpg",
+      "https://audio.jukehost.co.uk/s3H6jpJlNddGkEDwU0j8hvFDkHekJx3W"
     );
   
     const song5 = new Song(
-      "Beast",
-      "Nico Vega",
-      "https://i1.sndcdn.com/artworks-2sg1kWr6e0wp-0-t500x500.jpg",
-      "https://audio.jukehost.co.uk/HrP06WgAWji67ytIBRrSAqGo5adsr39J"
+      "Walls Come Tumbling Down",
+      "Style Council",
+      "https://i.ytimg.com/vi/Y1bBCoeQFxI/maxresdefault.jpg",
+      "https://audio.jukehost.co.uk/ugIPBSG5DLbAlwQ8RAznsPstmHcwOE6j"
     );
   
     const song6 = new Song(
-      "B.Y.O.B.",
-      "System of a Down",
+      "Under The Bridge.",
+      "Red Hot Chili Peppers",
       "https://upload.wikimedia.org/wikipedia/en/0/02/Mezmerize-LP.jpg",
       "https://audio.jukehost.co.uk/TDnRpwxp5oGXmhaO0HXt6Xti2Wr3JQ2t"
-    );
-  
-    const song7 = new Song(
-      "Mosh",
-      "Eminem",
-      "https://upload.wikimedia.org/wikipedia/en/b/b4/Encore_%28Eminem_album%29_coverart.jpg",
-      "https://audio.jukehost.co.uk/1ZqS3DttoOnMtFQ8VFTUzrXouWNlRr9V"
     );
   
     playlist.addSong(song1);
@@ -170,7 +163,6 @@ e = campaignTrail_temp;
     playlist.addSong(song4);
     playlist.addSong(song5);
     playlist.addSong(song6);
-    playlist.addSong(song7);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
