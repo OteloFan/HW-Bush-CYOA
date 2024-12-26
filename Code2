@@ -240,7 +240,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4367,
         "fields": {
             "question": 698,
-            "description": "The Cold War has ended, Germany stands united, with it's wall torn down, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make it clear: under my administration, America has faced its greatest adversary—and prevailed."
+            "description": "The Cold War has ended, Germany stands united. Having torn down its wall, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make it clear: under my administration, America has faced its greatest adversary—and prevailed."
         }
     },
     {
