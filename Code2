@@ -232,7 +232,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4366,
         "fields": {
             "question": 698,
-            "description": "What is at stake at this very moment is not just the well-being of our nation, but the future of an idea—an enduring vision—a New World Order, if you will. Let's write a speech about how my administration,  will never shy away from our greater responsibilities toward the World."
+            "description": "What is at stake at this very moment is not just the well-being of our nation, but the future of an idea—an enduring vision—a New World Order, if you will. Let's write a speech about how my administration, will never shy away from our greater responsibilities toward the World."
         }
     },
     {
@@ -240,7 +240,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4367,
         "fields": {
             "question": 698,
-            "description": "The Cold War has ended, Germany stands united, has torn down its wall, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make clear: under my administration, America has faced its greatest adversary—and prevailed.\""
+            "description": "The Cold War has ended, Germany stands united, with it's wall torn down, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make it clear: under my administration, America has faced its greatest adversary—and prevailed."
         }
     },
     {
@@ -248,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4368,
         "fields": {
             "question": 698,
-            "description": "I have often spoken of a kinder, gentler nation. We need to work on bringing people together, set aside old grudges, and look toward new possibilities—Republicans, Democrats, and Independents—as we did with the Americans with Disabilities Act, progress is not a partisan issue—it is an American issue."
+            "description": "I have often spoken of a kinder, gentler nation. We need to look toward new possibilities, get to working on bringing people together —Republicans, Democrats, and Independents— and set aside old grudges, as we did with the Americans with Disabilities Act, progress is not a partisan issue—it is an American issue."
         }
     },
     {
@@ -9182,6 +9182,47 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+   
+    campaignTrail_temp.candidate_image_url = "https://i.imgur.com/mRYrfNz.png";
+    
+    campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GYHntgN.png";
+    
+    campaignTrail_temp.candidate_last_name = "Bush";
+    
+    campaignTrail_temp.running_mate_last_name = "Quayle";
+
+
+const observer = new MutationObserver(onGameWindowChanged);
+	observer.observe(targetNode, config);
+
+function onGameWindowChanged(mutationList, observer) {
+    updateQuestionBanner();
+}
+
+e.VPisCandidate = 0;
+function updateQuestionBanner() {
+    let questionBanner = document.getElementById("campaign_sign");
+    if (!questionBanner || questionBanner.nodeName != "DIV") return;
+    let img = document.createElement('img');
+    if(e.VPisCandidate == 0)
+    {
+        img.src = 'https://i.imgur.com/1kc29NQ.png';
+        img.width = 280; // Adjust the width as needed
+        img.height = 105; // Adjust the height as needed
+    } 
+    questionBanner.replaceWith(img);
+}
+
+e.cyoa = true
+
+cyoAdventure = function(a) {
+        ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length-1];
+		e.noCounter += 1
+
+
+
+
+	}
 
 
 campaignTrail_temp.jet_data = [{}
