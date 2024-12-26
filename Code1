@@ -146,7 +146,7 @@ e = campaignTrail_temp;
     const song5 = new Song(
       "Walls Come Tumbling Down",
       "Style Council",
-      "https://i.ytimg.com/vi/Y1bBCoeQFxI/maxresdefault.jpg",
+      "https://m.media-amazon.com/images/I/51MslusKNPL._AC_SY450_.jpg",
       "https://audio.jukehost.co.uk/ugIPBSG5DLbAlwQ8RAznsPstmHcwOE6j"
     );
   
