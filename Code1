@@ -11,7 +11,7 @@ e = campaignTrail_temp;
 
             $(".container")[0].style.backgroundColor = "#ece5d8";
 
-            document.getElementById("header").src = "https://i.imgur.com/qN5V9At.png";
+            document.getElementById("header").src = "https://i.imgur.com/oo50Ihf.gif";
 
             document.body.background = "https://i.imgur.com/3yFX8Er.png";
 
