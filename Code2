@@ -9183,9 +9183,9 @@ campaignTrail_temp.answer_feedback_json = [
 ]
 
    
-    campaignTrail_temp.candidate_image_url = "https://i.imgur.com/mRYrfNz.png";
+    campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ILI28Hu.png";
     
-    campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GYHntgN.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/V3ngZYp.png";
     
     campaignTrail_temp.candidate_last_name = "Bush";
     
