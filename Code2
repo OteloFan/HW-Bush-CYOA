@@ -232,7 +232,7 @@ campaignTrail_temp.answers_json = [
       "pk": 4366,
       "fields": {
           "question": 698,
-          "description": "What is at stake at this very moment is not just the well-being of our nation, but the future of an idea—an enduring vision—a New World Order, if you will. Let's write a speech about how my administration, will never shy away from our greater responsibilities toward the World."
+          "description": "What is at stake at this very moment is not just the well-being of our nation, but the future of an idea—an enduring vision—a New World Order, if you will. Let's write a speech about how my administration will never shy away from our greater responsibilities toward the world."
       }
   },
   {
@@ -240,7 +240,7 @@ campaignTrail_temp.answers_json = [
       "pk": 4367,
       "fields": {
           "question": 698,
-          "description": "The Cold War has ended, Germany stands united. Having torn down its wall, and stepped into the light of liberty, the Iron Curtain is fading into history. Let us make it clear: under my administration, America has faced its greatest adversary—and prevailed."
+          "description": "The Cold War has ended, Germany stands united, walls have been torn down from Berlin to Bulgaria, and eastern Europe has stepped into the light of liberty. The Iron Curtain is rusting into history. Let's make it clear that, under my administration, America has faced its greatest adversary and prevailed."
       }
   },
   {
