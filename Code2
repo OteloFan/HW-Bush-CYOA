@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
       "pk": 698,
       "fields": {
           "priority": 1,
-          "description": "It is 1991, Republicans are still reeling from the shellacking received from the 1990 midterms. With a Democratic majority in the house and a war in Kuwait abroad, this year's State of the Union address is sure to be a monumental one, what would you like to say to the nation at this momentous occasion?",
+          "description": "It is 1991, Republicans are still reeling from the shellacking received from the 1990 midterms. With a Democratic majority in the House and a war in Kuwait abroad, this year's State of the Union address is sure to be a monumental one, what would you like to say to the nation at this momentous occasion?",
           "likelihood": 1
       }
   },
