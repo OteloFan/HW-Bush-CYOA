@@ -176,7 +176,7 @@ e = campaignTrail_temp;
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.ibb.co/M73CBjW/overlay.png')";
+  infoContainer.style.backgroundImage = "url('')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -205,19 +205,19 @@ e = campaignTrail_temp;
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.ibb.co/gMyNq5T/back.png";
+  prevButton.src = "https://i.ibb.co/rGW08nBf/nextbutton.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the default play image
+  playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.ibb.co/5Rx0cYt/forward.png";
+  nextButton.src = "https://i.ibb.co/HTb93VY1/lastbutton.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -227,10 +227,10 @@ e = campaignTrail_temp;
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the pause image
+      playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.ibb.co/G5TsX12/play.png"; // Set the play image
+      playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the play image
     }
   });
   
@@ -268,7 +268,7 @@ e = campaignTrail_temp;
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.ibb.co/9Gkg5Qp/volume.png";
+  volumeLabel.src = "https://i.ibb.co/h06YCP5/volumebutton.png";
   volumeLabel.alt = "Volume";
   volumeContainer.appendChild(volumeLabel);
   
@@ -360,7 +360,7 @@ e = campaignTrail_temp;
       display: flex;
       flex-direction: row;
     height:191px;
-      background-Image: url("https://i.ibb.co/dKL29kY/background.png");
+      background-Image: url("https://i.ibb.co/jZRCcgJR/background.png");
     }
   
     #display-box {
