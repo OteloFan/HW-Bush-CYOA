@@ -205,19 +205,19 @@ e = campaignTrail_temp;
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.ibb.co/rGW08nBf/nextbutton.png";
+  prevButton.src = "https://i.imgur.com/xTpJuO1.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the default play image
+  playPauseButton.src = "https://i.ibb.co/LD8CbNFx/playing.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.ibb.co/HTb93VY1/lastbutton.png";
+  nextButton.src = "https://i.imgur.com/dU7K3BY.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -227,10 +227,10 @@ e = campaignTrail_temp;
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the pause image
+      playPauseButton.src = "https://i.ibb.co/LD8CbNFx/playing.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.ibb.co/qLmqTBkq/pausebutton.png"; // Set the play image
+      playPauseButton.src = "https://i.ibb.co/FL3bgDTb/paused.png"; // Set the play image
     }
   });
   
@@ -356,11 +356,11 @@ e = campaignTrail_temp;
   const style = document.createElement("style");
   style.textContent = `
   #player {
-      border: 3px solid #C9C9C9; /* Add your desired border style */
+      border: 3px solidrgb(0, 0, 0); /* Add your desired border style */
       display: flex;
       flex-direction: row;
-    height:191px;
-      background-Image: url("https://i.ibb.co/jZRCcgJR/background.png");
+    height:183px;
+      background-Image: url("https://i.ibb.co/TMmsQB2H/backg3-2.png");
     }
   
     #display-box {
@@ -382,17 +382,12 @@ e = campaignTrail_temp;
     margin-top: 3px;
     }
   
-    #song-info {
-      width: 100%;
-    padding:5px;
-    }
-  
     #controls-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin: 10px;
-      width:100%;
+      width:50%;
     padding-top:15px;
   
     }
@@ -408,11 +403,11 @@ e = campaignTrail_temp;
     }
   
     #progress-bar-container {
-      width: 100%;
+      width: 120%;
     }
   
     #progress-bar {
-      width: 80%;
+      width: 100%;
       margin: auto;
       display: flex;
       margin-Top: 20px;
