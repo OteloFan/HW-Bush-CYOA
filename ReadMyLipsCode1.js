@@ -178,7 +178,7 @@ e = campaignTrail_temp;
   infoContainer.id = "info-container";
   infoContainer.style.backgroundImage = "url('')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
-  infoContainer.style.color = "white"; // Set text color to white
+  infoContainer.style.color = "green"; // Set text color to white
   
   const songInfo = document.createElement("div");
   songInfo.id = "song-info";
@@ -356,11 +356,11 @@ e = campaignTrail_temp;
   const style = document.createElement("style");
   style.textContent = `
   #player {
-      border: 3px solidrgb(0, 0, 0); /* Add your desired border style */
+      border: 3px solidrgb(132, 133, 141); /* Add your desired border style */
       display: flex;
       flex-direction: row;
     height:183px;
-      background-Image: url("https://i.ibb.co/TMmsQB2H/backg3-2.png");
+      background-Image: url("https://i.ibb.co/KxqPJcNS/backg4-2.png");
     }
   
     #display-box {
@@ -370,8 +370,9 @@ e = campaignTrail_temp;
     }
   
     #cover {
-      width: 176px;
-    height:176px;
+      width: 166px;
+    height:166px;
+    margin:11px;
     }
   
     #info-container {
@@ -379,7 +380,7 @@ e = campaignTrail_temp;
       flex-direction: row;
       height:178px;
     width:127px;
-    margin-top: 3px;
+    margin-top: 30px;
     }
   
     #controls-container {
@@ -388,7 +389,7 @@ e = campaignTrail_temp;
       align-items: center;
       margin: 10px;
       width:50%;
-    padding-top:15px;
+    padding-top:30px;
   
     }
     .is-vertical #volumeSlider {
