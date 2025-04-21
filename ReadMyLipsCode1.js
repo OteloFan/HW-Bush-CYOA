@@ -144,7 +144,7 @@ e = campaignTrail_temp;
     );
   
     const song5 = new Song(
-      "Walls Come Tumbling Down",
+      "Walls Come Tumbling...",
       "Style Council",
       "https://m.media-amazon.com/images/I/51MslusKNPL._AC_SY450_.jpg",
       "https://audio.jukehost.co.uk/ugIPBSG5DLbAlwQ8RAznsPstmHcwOE6j"
@@ -156,6 +156,18 @@ e = campaignTrail_temp;
       "https://images.genius.com/2680faf3d8fe8caf0458e56c6160900d.598x600x1.jpg",
       "https://audio.jukehost.co.uk/Tfk5hk9hkHHG0h3uZfc8S5wE1lba7OKm"
     );
+    const song7 = new Song(
+      "Black Or White",
+      "Michael Jackson",
+      "https://i.ibb.co/PvDVTpJr/blackorwhite.png",
+      "https://audio.jukehost.co.uk/cggwNTSI6z8bQBAGFKhG3JdGecuhXffd"
+    );
+    const song8 = new Song(
+      "Self Control",
+      "Laura Branigan",
+      "https://i.ibb.co/2Y6pWRpF/self-control.png",
+      "https://audio.jukehost.co.uk/8xiK2JSw1kWkuw5VOiTSPPJPzXXR5GxX"
+    );
   
     playlist.addSong(song1);
     playlist.addSong(song2);
@@ -163,6 +175,8 @@ e = campaignTrail_temp;
     playlist.addSong(song4);
     playlist.addSong(song5);
     playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
@@ -268,13 +282,13 @@ e = campaignTrail_temp;
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.ibb.co/h06YCP5/volumebutton.png";
-  volumeLabel.alt = "Volume";
+  volumeLabel.src = "";
+  volumeLabel.alt = "";
   volumeContainer.appendChild(volumeLabel);
   
     const volumeSliderContainer = document.createElement("div");
     volumeSliderContainer.classList.add("is-vertical");
-    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.marginLeft = "-130%";
     volumeSliderContainer.style.height = "126px";
   
     const volumeSlider = document.createElement("input");
@@ -360,7 +374,7 @@ e = campaignTrail_temp;
       display: flex;
       flex-direction: row;
     height:183px;
-      background-Image: url("https://i.ibb.co/KxqPJcNS/backg4-2.png");
+      background-Image: url("https://i.ibb.co/mCMN7bW9/backg5-1.png");
     }
   
     #display-box {
@@ -372,14 +386,14 @@ e = campaignTrail_temp;
     #cover {
       width: 166px;
     height:166px;
-    margin:11px;
+    margin:12px;
     }
   
     #info-container {
       display: flex;
       flex-direction: row;
       height:178px;
-    width:127px;
+    width:180px;
     margin-top: 30px;
     }
   
@@ -393,7 +407,8 @@ e = campaignTrail_temp;
   
     }
     .is-vertical #volumeSlider {
-    width: 125px;
+    width: 120px;
+    padding-top: 190px;
   }
   
     #controls {
@@ -404,7 +419,7 @@ e = campaignTrail_temp;
     }
   
     #progress-bar-container {
-      width: 120%;
+      width: 100%;
     }
   
     #progress-bar {
