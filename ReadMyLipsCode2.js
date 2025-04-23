@@ -856,22 +856,22 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 57,
         "fields": {
-            "name": "Economy",
-            "description": "'",
+            "name": "Economics",
+            "description": "",
             "stance_1": "Reaganite",
-            "stance_desc_1": "'",
-            "stance_2": "Deficit Hawk",
-            "stance_desc_2": "'",
-            "stance_3": "Fiscal Conservative",
-            "stance_desc_3": "'",
-            "stance_4": "Concerned",
-            "stance_desc_4": "'",
-            "stance_5": "Fiscal Liberal",
-            "stance_desc_5": "'",
-            "stance_6": "Interventionist",
-            "stance_desc_6": "'",
-            "stance_7": "Regulator",
-            "stance_desc_7": "'",
+            "stance_desc_1": "",
+            "stance_2": "Reaganite",
+            "stance_desc_2": "",
+            "stance_3": "Trickling Down",
+            "stance_desc_3": "",
+            "stance_4": "As Long As I Got Mine",
+            "stance_desc_4": "",
+            "stance_5": "Liberal Yearnings",
+            "stance_desc_5": "",
+            "stance_6": "Tax and Spend",
+            "stance_desc_6": "",
+            "stance_7": "Tax and Spend",
+            "stance_desc_7": "",
             "election": 15
         }
     },
@@ -879,22 +879,22 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 58,
         "fields": {
-            "name": "Foreign policy",
-            "description": "'",
+            "name": "Foreign Policy",
+            "description": "",
             "stance_1": "New World Order",
-            "stance_desc_1": "'",
-            "stance_2": "War Hawk",
-            "stance_desc_2": "'",
-            "stance_3": "Intervention supporter",
-            "stance_desc_3": "'",
-            "stance_4": "Keep Status Quo",
-            "stance_desc_4": "'",
-            "stance_5": "Soft Power",
-            "stance_desc_5": "'",
-            "stance_6": "Dove",
-            "stance_desc_6": "'",
-            "stance_7": "Vietnam Syndrome",
-            "stance_desc_7": "'",
+            "stance_desc_1": "",
+            "stance_2": "New World Order",
+            "stance_desc_2": "",
+            "stance_3": "American Century",
+            "stance_desc_3": "",
+            "stance_4": "Doesn't Matter",
+            "stance_desc_4": "",
+            "stance_5": "No To Warmongering",
+            "stance_desc_5": "",
+            "stance_6": "Hippies",
+            "stance_desc_6": "",
+            "stance_7": "Hippies",
+            "stance_desc_7": "",
             "election": 15
         }
     },
@@ -903,21 +903,21 @@ campaignTrail_temp.issues_json = [
         "pk": 59,
         "fields": {
             "name": "Culture War",
-            "description": "'",
-            "stance_1": "Fiery Cross",
-            "stance_desc_1": "'",
-            "stance_2": "Bible in Hand",
-            "stance_desc_2": "'",
-            "stance_3": "Kinder Gentler Nation",
-            "stance_desc_3": "'",
-            "stance_4": "Apathetic",
-            "stance_desc_4": "'",
+            "description": "",
+            "stance_1": "God Fearing",
+            "stance_desc_1": "",
+            "stance_2": "God Fearing",
+            "stance_desc_2": "",
+            "stance_3": "Conservative Flag-Bearer",
+            "stance_desc_3": "",
+            "stance_4": "Prefers Grilling",
+            "stance_desc_4": "",
             "stance_5": "Mainline Liberal",
-            "stance_desc_5": "'",
-            "stance_6": "Bleeding Heart",
-            "stance_desc_6": "'",
-            "stance_7": "Footmen and Horses",
-            "stance_desc_7": "'",
+            "stance_desc_5": "",
+            "stance_6": "Acid, Amnesty, Abortion",
+            "stance_desc_6": "",
+            "stance_7": "Acid, Amnesty, Abortion",
+            "stance_desc_7": "",
             "election": 15
         }
     },
@@ -925,22 +925,22 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 60,
         "fields": {
-            "name": "Trust",
-            "description": "'",
-            "stance_1": "True Believers",
-            "stance_desc_1": "'",
-            "stance_2": "Party Loyalists",
-            "stance_desc_2": "'",
-            "stance_3": "Leans Red",
-            "stance_desc_3": "'",
-            "stance_4": "Uncommitted",
-            "stance_desc_4": "'",
-            "stance_5": "Leans Blue",
-            "stance_desc_5": "'",
-            "stance_6": "Liberal Naysayers",
-            "stance_desc_6": "'",
-            "stance_7": "Barbarians",
-            "stance_desc_7": "'",
+            "name": "Goodwill",
+            "description": "",
+            "stance_1": "Don't Swap Horses",
+            "stance_desc_1": "",
+            "stance_2": "Don't Swap Horses",
+            "stance_desc_2": "",
+            "stance_3": "Keep Bush '92",
+            "stance_desc_3": "",
+            "stance_4": "A Fine President",
+            "stance_desc_4": "",
+            "stance_5": "Reagan's Sockpuppet",
+            "stance_desc_5": "",
+            "stance_6": "Time For Change",
+            "stance_desc_6": "",
+            "stance_7": "Time For Change",
+            "stance_desc_7": "",
             "election": 15
         }
     },
@@ -949,21 +949,21 @@ campaignTrail_temp.issues_json = [
         "pk": 61,
         "fields": {
             "name": "NAFTA",
-            "description": "'",
-            "stance_1": "Free Trade",
-            "stance_desc_1": "'",
-            "stance_2": "Free Trade",
-            "stance_desc_2": "'",
-            "stance_3": "Moderate",
-            "stance_desc_3": "'",
-            "stance_4": "Moderate",
-            "stance_desc_4": "'",
-            "stance_5": "Moderate",
-            "stance_desc_5": "'",
-            "stance_6": "Protectionist",
-            "stance_desc_6": "'",
-            "stance_7": "Protectionist",
-            "stance_desc_7": "'",
+            "description": "",
+            "stance_1": "Globalist",
+            "stance_desc_1": "",
+            "stance_2": "Globalist",
+            "stance_desc_2": "",
+            "stance_3": "Free Marketeer",
+            "stance_desc_3": "",
+            "stance_4": "Fair Deal Only",
+            "stance_desc_4": "",
+            "stance_5": "Unimpressed",
+            "stance_desc_5": "",
+            "stance_6": "Keep our Jobs",
+            "stance_desc_6": "",
+            "stance_7": "Keep our Jobs",
+            "stance_desc_7": "",
             "election": 15
         }
     }
@@ -3565,7 +3565,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 152,
             "issue": 61,
-            "issue_score": -0.4
+            "issue_score": -0.6
         }
     },
     {
@@ -3610,7 +3610,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 153,
             "issue": 61,
-            "issue_score": 0.35
+            "issue_score": -0.4
         }
     },
     {
@@ -3655,7 +3655,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 154,
             "issue": 61,
-            "issue_score": -0.4
+            "issue_score": 0.6
         }
     },
     {
@@ -5840,6 +5840,7 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.jet_data = [{}
 ]
+
 
 
    
