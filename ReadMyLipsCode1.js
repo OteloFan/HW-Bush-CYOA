@@ -260,7 +260,18 @@ let containerRef = document.getElementsByClassName("container")[0];
      "https://i.ibb.co/2Y6pWRpF/self-control.png",
      "https://audio.jukehost.co.uk/8xiK2JSw1kWkuw5VOiTSPPJPzXXR5GxX"
    );
- 
+    const song9 = new Song(
+     "Maria Magdalena",
+     "Sandra",
+     "https://i.imgur.com/dthZrH8.jpeg",
+     "https://audio.jukehost.co.uk/6y5ZlD6pHapTpPZFOLzcIK9tF3qrnssG"
+   ); 
+    const song10 = new Song(
+     "Jesus He Knows...",
+     "Genesis",
+     "https://i.imgur.com/ywfx2D1.png",
+     "https://audio.jukehost.co.uk/3RN3SLXAcTEKwnPDdLxeab4RlYknIemy"
+   );
    playlist.addSong(song1);
    playlist.addSong(song2);
    playlist.addSong(song3);
@@ -269,6 +280,8 @@ let containerRef = document.getElementsByClassName("container")[0];
    playlist.addSong(song6);
    playlist.addSong(song7);
    playlist.addSong(song8);
+   playlist.addSong(song9);
+   playlist.addSong(song10);
  
    const playerContainer = document.createElement("div");
    playerContainer.id = "player";
